@@ -16,6 +16,12 @@ function App() {
             return fetch('https://openapi.programming-hero.com/api/quiz')
           },
           element:<Home></Home>
+        },
+        {
+          path: 'quizs:id',
+          loader:({params}) => {
+            return fetch(`https://openapi.programming-hero.com/api/quiz/${params.id}`)
+          },
         }
       ]
     }
