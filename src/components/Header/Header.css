@@ -1,0 +1,24 @@
+.header {
+    height: 80px;
+    background-color: #bee0f7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+
+}
+
+.header a {
+    color: rgb(6, 5, 5);
+    text-decoration: none;
+    font-size: 18PX;
+    margin-left: 37px;
+}
+
+.header a:hover {
+    color: rgb(13, 13, 188);
+}
+.quiz-title{
+    color: rgb(13, 13, 188);
+}
