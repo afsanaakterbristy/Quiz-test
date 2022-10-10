@@ -2,7 +2,8 @@ import React from 'react';
 import './SubjectCart.css'
 
 const SubjectCart = ({ subject }) => {
-    console.log(subject);
+    //console.log(subject);
+    
     const { name, logo } = subject;
     return (
         <div className='subject-conainer'>
