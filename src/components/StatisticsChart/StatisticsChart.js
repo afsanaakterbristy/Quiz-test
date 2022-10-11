@@ -4,7 +4,7 @@ import Chart from '../Chart/Chart';
 
 const StatisticsChart = () => {
     const statistics = useLoaderData()
-    console.log(statistics.data);
+    //console.log(statistics.data);
     return (
         <div>
             {

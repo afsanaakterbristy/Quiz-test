@@ -1,10 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './SubjectCart.css'
 
 const SubjectCart = ({ subject }) => {
     //console.log(subject);
     
-    const { name, logo } = subject;
+    const { id, name, logo } = subject;
+  
     return (
         <div className='subject-conainer'>
            <div className='subject'>
@@ -14,7 +16,7 @@ const SubjectCart = ({ subject }) => {
         
             </div>
             <button className='btn-cart'>
-                <p>Start for quiz</p>
+                <Link to={`../quiz/${id}`}><p>Start For Quiz</p></Link>
             </button>
         </div>
         </div>
