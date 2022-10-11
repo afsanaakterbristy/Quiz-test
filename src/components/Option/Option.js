@@ -1,6 +1,6 @@
 import React from 'react';
 import './Option.css'
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 const Option = ({ option,correctAnswer,id }) => {
     //console.log(correctAnswer);
@@ -16,9 +16,7 @@ const Option = ({ option,correctAnswer,id }) => {
             <div>
                    <input onChange={()=>handleCorrectAnswer(option)} className='option' type="radio" id={option} name="option" value={option}/>
                 <label className='' htmlFor={option}> {option}</label>
-                <ToastContainer
-                position="top-center"
-                ></ToastContainer>
+                
          </div>
         </div>
     );
