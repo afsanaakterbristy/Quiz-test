@@ -5,6 +5,7 @@ import headerimage from '../../assets/headerimage2.jpg'
 import './Home.css'
 
 const Home = () => {
+    
     const allSubject = useLoaderData()
     // console.log(allSubject.data)
     return (

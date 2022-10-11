@@ -3,6 +3,7 @@ import { useLoaderData } from 'react-router-dom';
 import SubjectCart from '../SubjectCart/SubjectCart';
 
 const Quiz = () => {
+    
      const allSubject = useLoaderData()
     // console.log(allSubject.data)
     return (
