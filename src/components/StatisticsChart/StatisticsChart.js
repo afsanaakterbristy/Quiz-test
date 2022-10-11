@@ -1,15 +1,18 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
-import Chart from '../Chart/Chart';
+
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 const StatisticsChart = () => {
-    const statistics = useLoaderData()
+    const statistics = useLoaderData().data
     //console.log(statistics.data);
     return (
         <div>
-            {
-                statistics.data.map(statistic => <Chart key={statistic.id} statistic={ statistic}></Chart>)
-            }
+            <LineChart width={500} height={400} data={statistics}>
+                <Line type="monotone" dataKey="total" stroke="#82ca9d" />
+                  <XAxis dataKey="name" />
+                    <YAxis />
+            </LineChart>
         </div>
     );
 };
