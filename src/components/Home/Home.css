@@ -40,7 +40,10 @@
 
 @media only screen and (max-width: 576px) {
       .header-img{
-        width: 149%;
+        width: 100%;
+      }
+      .header-title{
+font-size: 20;
       }
       .subject-container {
               display: grid;
@@ -53,7 +56,7 @@
 
 @media only screen and (min-width:577px) and (max-width:768px) {
 .header-img {
-                width: 136%;
+                width: 100%;
         }
                  .subject-container {
                          display: grid;

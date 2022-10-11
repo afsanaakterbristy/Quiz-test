@@ -26,15 +26,12 @@
 
 @media only screen and (max-width: 576px) {
 .question-container{
- width: 700px;
-   margin-left: 80px;
+ width: 500px;
+  
 }
-}
-
-
-@media only screen and (min-width:577px) and (max-width:768px) {
 .question-container {
-      
-      margin-left: 130px;
-   }
+   height: 273px;
 }
+}
+
+
