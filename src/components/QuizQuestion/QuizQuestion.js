@@ -7,11 +7,11 @@ import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const QuizQuestion = ({quizQuestion }) => {
-    const { options, question, id, correctAnswer } = quizQuestion
+    const { options, question, correctAnswer } = quizQuestion
     const handleAnswer = (correctAnswer) => {
         toast(`${correctAnswer}`)
     }
-    //console.log(quizQuestion);
+    //console.log(quizQuestion); 
     return (
         <div className='question-container'>
              <h3>{question}</h3>
@@ -19,7 +19,7 @@ const QuizQuestion = ({quizQuestion }) => {
 
             <div className='option'>
                   {
-                options.map(option => <Option key={option.id } option={option} correctAnswer={correctAnswer}></Option>)
+                options.map(option => <Option key={option.id} option={option} correctAnswer={correctAnswer}></Option>)
             }
           </div>
 

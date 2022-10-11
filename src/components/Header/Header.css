@@ -2,7 +2,7 @@
     height: 80px;
     background-color: #bee0f7;
     display: flex;
-    align-items: center;
+    align-items: center; 
     justify-content: space-between;
     padding-left: 140px;
     padding-right: 140px;
@@ -21,4 +21,19 @@
 }
 .quiz-title {
     color: rgb(13, 13, 188);
+}
+
+
+@media only screen and (max-width: 576px) {
+.header{
+    width: 100%;
+}
+
+}
+
+
+@media only screen and (min-width:577px) and (max-width:768px) {
+.header {
+        width: 100%;
+    }
 }

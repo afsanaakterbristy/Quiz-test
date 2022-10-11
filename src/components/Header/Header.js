@@ -12,7 +12,7 @@ const Header = () => {
                 <div className='quiz-title'> 
                         <h2>Assigment Quiz Test</h2>
                 </div>
-            <div>
+            <div className='all-link'>
                 <Link to='/'>Home</Link>
                 <Link to='/quiz'>QuizTopic</Link>
                 <Link to='/statisticschart'>StatisticsChart</Link>

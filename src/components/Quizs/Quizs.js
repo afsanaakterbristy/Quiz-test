@@ -10,7 +10,7 @@ const Quizs = () => {
     
     return (
         <div className='quiz-container'>
-            <h2 className='quiz-title'>Quiz Start</h2>
+            <h2 className='quiz-title2'>Quiz Start</h2> 
             {
                 quizs.map(quizQuestion => <QuizQuestion key={quizQuestion.id} quizQuestion={quizQuestion}></QuizQuestion>)
             }
