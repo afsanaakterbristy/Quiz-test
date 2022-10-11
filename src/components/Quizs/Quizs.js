@@ -10,9 +10,9 @@ const Quizs = () => {
     
     return (
         <div className='quiz-container'>
-            <h2 className='quiz-title2'>Quiz Start {quiz.name}</h2> 
+            <h2 className='quiz-title2'>Quiz Start of {quiz.name}</h2> 
             {
-                quizs.map(quizQuestion => <QuizQuestion key={quizQuestion.id} quizQuestion={quizQuestion}></QuizQuestion>)
+                quizs.map((quizQuestion,index) => <QuizQuestion key={quizQuestion.id} quizQuestion={quizQuestion} index={index}></QuizQuestion>)
             }
         </div>
     );

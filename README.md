@@ -2,7 +2,7 @@
 
 Assessment, instruction, and practice that motivate every student to mastery.
 
-# What I do in this site?
+# What I do in this Project?
 It is a education relateded site. Here I make one home page. and one link i give quize topics. When i click here i will get subject quiz mcq question.when i click right ans it give me the Correct notice with toastyfy.if I click worng it will give one notification.
 
 
