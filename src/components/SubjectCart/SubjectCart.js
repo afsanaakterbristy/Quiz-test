@@ -16,7 +16,7 @@ const SubjectCart = ({ subject }) => {
         
             </div>
             <button className='btn-cart'>
-                <Link to={`../quiz/${id}`}><p>Start For Quiz</p></Link>
+                <Link className='btn-start' to={`../quiz/${id}`}><p>Start For Quiz</p></Link>
             </button>
         </div>
         </div>

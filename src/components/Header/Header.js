@@ -9,13 +9,12 @@ const Header = () => {
         <div>
             <nav className='header'>
                
-                <div className='quiz-title'>
-                    
+                <div className='quiz-title'> 
                         <h2>Assigment Quiz Test</h2>
                 </div>
             <div>
                 <Link to='/'>Home</Link>
-                <Link to='/quiz'>Quiz</Link>
+                <Link to='/quiz'>QuizTopic</Link>
                 <Link to='/statisticschart'>StatisticsChart</Link>
                 <Link to='/blog'>Blog</Link>
             </div>
