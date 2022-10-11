@@ -7,7 +7,7 @@ It is a education relateded site. Here I make one home page. and one link i give
 
 
 ## Live Link
-Hosted in Netlify -> [Smart Home]()
+Hosted in Netlify -> [Smart Home](https://dancing-entremet-01d56a.netlify.app/)
 
 
 
